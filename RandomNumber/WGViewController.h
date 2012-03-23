@@ -9,5 +9,18 @@
 #import <UIKit/UIKit.h>
 
 @interface WGViewController : UIViewController
+{
+    // Instance var created via drag & drop in interface builder.
+    IBOutlet UILabel *randomNumber;
+    
+}
+
+// Seed & generate created via drag & drop in interface builder.
+
+- (IBAction)seed:(id)sender;
+
+- (IBAction)generate:(id)sender;
+
+
 
 @end

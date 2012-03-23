@@ -26,6 +26,8 @@
 
 - (void)viewDidUnload
 {
+    randomNumber = nil;
+    randomNumber = nil;
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -57,4 +59,21 @@
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
+- (IBAction)seed:(id)sender {
+    srandom(time(NULL));
+    [randomNumber setText: @"Generator Seeded"];
+    
+}
+
+- (IBAction)generate:(id)sender {
+    // Generate a number between 1 and 100, inclusive.
+    int generated;
+    generated = (random() % 101);
+    [randomNumber setText:[NSString stringWithFormat:@"%i",generated]];
+
+}
 @end
+
+
+
+

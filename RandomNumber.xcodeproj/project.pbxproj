@@ -22,13 +22,13 @@
 		6F9F0780151C32AB00229DFC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6F9F0782151C32AB00229DFC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6F9F0784151C32AB00229DFC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		6F9F0788151C32AB00229DFC /* RandomNumber-Info.plist */ = {isa = PBXFileReference; path = "RandomNumber-Info.plist"; sourceTree = "<group>"; };
+		6F9F0788151C32AB00229DFC /* RandomNumber-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RandomNumber-Info.plist"; sourceTree = "<group>"; };
 		6F9F078A151C32AB00229DFC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6F9F078C151C32AB00229DFC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6F9F078E151C32AB00229DFC /* RandomNumber-Prefix.pch */ = {isa = PBXFileReference; path = "RandomNumber-Prefix.pch"; sourceTree = "<group>"; };
-		6F9F078F151C32AB00229DFC /* WGAppDelegate.h */ = {isa = PBXFileReference; path = WGAppDelegate.h; sourceTree = "<group>"; };
+		6F9F078E151C32AB00229DFC /* RandomNumber-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RandomNumber-Prefix.pch"; sourceTree = "<group>"; };
+		6F9F078F151C32AB00229DFC /* WGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGAppDelegate.h; sourceTree = "<group>"; };
 		6F9F0790151C32AB00229DFC /* WGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGAppDelegate.m; sourceTree = "<group>"; };
-		6F9F0792151C32AB00229DFC /* WGViewController.h */ = {isa = PBXFileReference; path = WGViewController.h; sourceTree = "<group>"; };
+		6F9F0792151C32AB00229DFC /* WGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGViewController.h; sourceTree = "<group>"; };
 		6F9F0793151C32AB00229DFC /* WGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGViewController.m; sourceTree = "<group>"; };
 		6F9F0796151C32AB00229DFC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/WGViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,11 +77,11 @@
 		6F9F0786151C32AB00229DFC /* RandomNumber */ = {
 			isa = PBXGroup;
 			children = (
+				6F9F079F151C33AC00229DFC /* Controllers */,
+				6F9F079E151C339F00229DFC /* Views */,
+				6F9F079D151C338500229DFC /* Models */,
 				6F9F078F151C32AB00229DFC /* WGAppDelegate.h */,
 				6F9F0790151C32AB00229DFC /* WGAppDelegate.m */,
-				6F9F0792151C32AB00229DFC /* WGViewController.h */,
-				6F9F0793151C32AB00229DFC /* WGViewController.m */,
-				6F9F0795151C32AB00229DFC /* WGViewController.xib */,
 				6F9F0787151C32AB00229DFC /* Supporting Files */,
 			);
 			path = RandomNumber;
@@ -96,6 +96,30 @@
 				6F9F078E151C32AB00229DFC /* RandomNumber-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6F9F079D151C338500229DFC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		6F9F079E151C339F00229DFC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		6F9F079F151C33AC00229DFC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6F9F0795151C32AB00229DFC /* WGViewController.xib */,
+				6F9F0792151C32AB00229DFC /* WGViewController.h */,
+				6F9F0793151C32AB00229DFC /* WGViewController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

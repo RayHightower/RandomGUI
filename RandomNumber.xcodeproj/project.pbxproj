@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F9F0781151C32AB00229DFC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F9F0780151C32AB00229DFC /* UIKit.framework */; };
+		6F9F0783151C32AB00229DFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F9F0782151C32AB00229DFC /* Foundation.framework */; };
+		6F9F0785151C32AB00229DFC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F9F0784151C32AB00229DFC /* CoreGraphics.framework */; };
+		6F9F078B151C32AB00229DFC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6F9F0789151C32AB00229DFC /* InfoPlist.strings */; };
+		6F9F078D151C32AB00229DFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9F078C151C32AB00229DFC /* main.m */; };
+		6F9F0791151C32AB00229DFC /* WGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9F0790151C32AB00229DFC /* WGAppDelegate.m */; };
+		6F9F0794151C32AB00229DFC /* WGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9F0793151C32AB00229DFC /* WGViewController.m */; };
+		6F9F0797151C32AB00229DFC /* WGViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F9F0795151C32AB00229DFC /* WGViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6F9F077C151C32AB00229DFC /* RandomNumber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomNumber.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F9F0780151C32AB00229DFC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6F9F0782151C32AB00229DFC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6F9F0784151C32AB00229DFC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6F9F0788151C32AB00229DFC /* RandomNumber-Info.plist */ = {isa = PBXFileReference; path = "RandomNumber-Info.plist"; sourceTree = "<group>"; };
+		6F9F078A151C32AB00229DFC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6F9F078C151C32AB00229DFC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6F9F078E151C32AB00229DFC /* RandomNumber-Prefix.pch */ = {isa = PBXFileReference; path = "RandomNumber-Prefix.pch"; sourceTree = "<group>"; };
+		6F9F078F151C32AB00229DFC /* WGAppDelegate.h */ = {isa = PBXFileReference; path = WGAppDelegate.h; sourceTree = "<group>"; };
+		6F9F0790151C32AB00229DFC /* WGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGAppDelegate.m; sourceTree = "<group>"; };
+		6F9F0792151C32AB00229DFC /* WGViewController.h */ = {isa = PBXFileReference; path = WGViewController.h; sourceTree = "<group>"; };
+		6F9F0793151C32AB00229DFC /* WGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGViewController.m; sourceTree = "<group>"; };
+		6F9F0796151C32AB00229DFC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/WGViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F9F0779151C32AB00229DFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F9F0781151C32AB00229DFC /* UIKit.framework in Frameworks */,
+				6F9F0783151C32AB00229DFC /* Foundation.framework in Frameworks */,
+				6F9F0785151C32AB00229DFC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F9F0771151C32AA00229DFC = {
+			isa = PBXGroup;
+			children = (
+				6F9F0786151C32AB00229DFC /* RandomNumber */,
+				6F9F077F151C32AB00229DFC /* Frameworks */,
+				6F9F077D151C32AB00229DFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F9F077D151C32AB00229DFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F9F077C151C32AB00229DFC /* RandomNumber.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F9F077F151C32AB00229DFC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F9F0780151C32AB00229DFC /* UIKit.framework */,
+				6F9F0782151C32AB00229DFC /* Foundation.framework */,
+				6F9F0784151C32AB00229DFC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F9F0786151C32AB00229DFC /* RandomNumber */ = {
+			isa = PBXGroup;
+			children = (
+				6F9F078F151C32AB00229DFC /* WGAppDelegate.h */,
+				6F9F0790151C32AB00229DFC /* WGAppDelegate.m */,
+				6F9F0792151C32AB00229DFC /* WGViewController.h */,
+				6F9F0793151C32AB00229DFC /* WGViewController.m */,
+				6F9F0795151C32AB00229DFC /* WGViewController.xib */,
+				6F9F0787151C32AB00229DFC /* Supporting Files */,
+			);
+			path = RandomNumber;
+			sourceTree = "<group>";
+		};
+		6F9F0787151C32AB00229DFC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F9F0788151C32AB00229DFC /* RandomNumber-Info.plist */,
+				6F9F0789151C32AB00229DFC /* InfoPlist.strings */,
+				6F9F078C151C32AB00229DFC /* main.m */,
+				6F9F078E151C32AB00229DFC /* RandomNumber-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F9F077B151C32AB00229DFC /* RandomNumber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F9F079A151C32AB00229DFC /* Build configuration list for PBXNativeTarget "RandomNumber" */;
+			buildPhases = (
+				6F9F0778151C32AB00229DFC /* Sources */,
+				6F9F0779151C32AB00229DFC /* Frameworks */,
+				6F9F077A151C32AB00229DFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RandomNumber;
+			productName = RandomNumber;
+			productReference = 6F9F077C151C32AB00229DFC /* RandomNumber.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F9F0773151C32AA00229DFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = WisdomGroup;
+			};
+			buildConfigurationList = 6F9F0776151C32AA00229DFC /* Build configuration list for PBXProject "RandomNumber" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6F9F0771151C32AA00229DFC;
+			productRefGroup = 6F9F077D151C32AB00229DFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F9F077B151C32AB00229DFC /* RandomNumber */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F9F077A151C32AB00229DFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F9F078B151C32AB00229DFC /* InfoPlist.strings in Resources */,
+				6F9F0797151C32AB00229DFC /* WGViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F9F0778151C32AB00229DFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F9F078D151C32AB00229DFC /* main.m in Sources */,
+				6F9F0791151C32AB00229DFC /* WGAppDelegate.m in Sources */,
+				6F9F0794151C32AB00229DFC /* WGViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6F9F0789151C32AB00229DFC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F9F078A151C32AB00229DFC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6F9F0795151C32AB00229DFC /* WGViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F9F0796151C32AB00229DFC /* en */,
+			);
+			name = WGViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F9F0798151C32AB00229DFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6F9F0799151C32AB00229DFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F9F079B151C32AB00229DFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RandomNumber/RandomNumber-Prefix.pch";
+				INFOPLIST_FILE = "RandomNumber/RandomNumber-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6F9F079C151C32AB00229DFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RandomNumber/RandomNumber-Prefix.pch";
+				INFOPLIST_FILE = "RandomNumber/RandomNumber-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F9F0776151C32AA00229DFC /* Build configuration list for PBXProject "RandomNumber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F9F0798151C32AB00229DFC /* Debug */,
+				6F9F0799151C32AB00229DFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F9F079A151C32AB00229DFC /* Build configuration list for PBXNativeTarget "RandomNumber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F9F079B151C32AB00229DFC /* Debug */,
+				6F9F079C151C32AB00229DFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F9F0773151C32AA00229DFC /* Project object */;
+}

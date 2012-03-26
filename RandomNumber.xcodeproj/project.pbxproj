@@ -148,7 +148,7 @@
 		6F9F0773151C32AA00229DFC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0430;
 				ORGANIZATIONNAME = WisdomGroup;
 			};
 			buildConfigurationList = 6F9F0776151C32AA00229DFC /* Build configuration list for PBXProject "RandomNumber" */;
@@ -299,6 +299,7 @@
 				6F9F079C151C32AB00229DFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

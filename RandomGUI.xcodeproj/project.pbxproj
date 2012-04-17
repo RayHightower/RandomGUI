@@ -18,14 +18,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6F9F077C151C32AB00229DFC /* RandomNumber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomNumber.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F9F077C151C32AB00229DFC /* RandomGUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomGUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F9F0780151C32AB00229DFC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6F9F0782151C32AB00229DFC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6F9F0784151C32AB00229DFC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		6F9F0788151C32AB00229DFC /* RandomNumber-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RandomNumber-Info.plist"; sourceTree = "<group>"; };
+		6F9F0788151C32AB00229DFC /* RandomGUI-Info.plist */ = {isa = PBXFileReference; path = "RandomGUI-Info.plist"; sourceTree = "<group>"; };
 		6F9F078A151C32AB00229DFC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6F9F078C151C32AB00229DFC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6F9F078E151C32AB00229DFC /* RandomNumber-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RandomNumber-Prefix.pch"; sourceTree = "<group>"; };
+		6F9F078E151C32AB00229DFC /* RandomGUI-Prefix.pch */ = {isa = PBXFileReference; path = "RandomGUI-Prefix.pch"; sourceTree = "<group>"; };
 		6F9F078F151C32AB00229DFC /* WGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGAppDelegate.h; sourceTree = "<group>"; };
 		6F9F0790151C32AB00229DFC /* WGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGAppDelegate.m; sourceTree = "<group>"; };
 		6F9F0792151C32AB00229DFC /* WGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGViewController.h; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 		6F9F0771151C32AA00229DFC = {
 			isa = PBXGroup;
 			children = (
-				6F9F0786151C32AB00229DFC /* RandomNumber */,
+				6F9F0786151C32AB00229DFC /* RandomGUI */,
 				6F9F077F151C32AB00229DFC /* Frameworks */,
 				6F9F077D151C32AB00229DFC /* Products */,
 			);
@@ -59,7 +59,7 @@
 		6F9F077D151C32AB00229DFC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6F9F077C151C32AB00229DFC /* RandomNumber.app */,
+				6F9F077C151C32AB00229DFC /* RandomGUI.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -74,7 +74,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		6F9F0786151C32AB00229DFC /* RandomNumber */ = {
+		6F9F0786151C32AB00229DFC /* RandomGUI */ = {
 			isa = PBXGroup;
 			children = (
 				6F9F079F151C33AC00229DFC /* Controllers */,
@@ -84,16 +84,17 @@
 				6F9F0790151C32AB00229DFC /* WGAppDelegate.m */,
 				6F9F0787151C32AB00229DFC /* Supporting Files */,
 			);
+			name = RandomGUI;
 			path = RandomNumber;
 			sourceTree = "<group>";
 		};
 		6F9F0787151C32AB00229DFC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6F9F0788151C32AB00229DFC /* RandomNumber-Info.plist */,
+				6F9F0788151C32AB00229DFC /* RandomGUI-Info.plist */,
 				6F9F0789151C32AB00229DFC /* InfoPlist.strings */,
 				6F9F078C151C32AB00229DFC /* main.m */,
-				6F9F078E151C32AB00229DFC /* RandomNumber-Prefix.pch */,
+				6F9F078E151C32AB00229DFC /* RandomGUI-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -125,9 +126,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6F9F077B151C32AB00229DFC /* RandomNumber */ = {
+		6F9F077B151C32AB00229DFC /* RandomGUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6F9F079A151C32AB00229DFC /* Build configuration list for PBXNativeTarget "RandomNumber" */;
+			buildConfigurationList = 6F9F079A151C32AB00229DFC /* Build configuration list for PBXNativeTarget "RandomGUI" */;
 			buildPhases = (
 				6F9F0778151C32AB00229DFC /* Sources */,
 				6F9F0779151C32AB00229DFC /* Frameworks */,
@@ -137,9 +138,9 @@
 			);
 			dependencies = (
 			);
-			name = RandomNumber;
+			name = RandomGUI;
 			productName = RandomNumber;
-			productReference = 6F9F077C151C32AB00229DFC /* RandomNumber.app */;
+			productReference = 6F9F077C151C32AB00229DFC /* RandomGUI.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -151,7 +152,7 @@
 				LastUpgradeCheck = 0430;
 				ORGANIZATIONNAME = WisdomGroup;
 			};
-			buildConfigurationList = 6F9F0776151C32AA00229DFC /* Build configuration list for PBXProject "RandomNumber" */;
+			buildConfigurationList = 6F9F0776151C32AA00229DFC /* Build configuration list for PBXProject "RandomGUI" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -163,7 +164,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6F9F077B151C32AB00229DFC /* RandomNumber */,
+				6F9F077B151C32AB00229DFC /* RandomGUI */,
 			);
 		};
 /* End PBXProject section */
@@ -262,9 +263,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RandomNumber/RandomNumber-Prefix.pch";
-				INFOPLIST_FILE = "RandomNumber/RandomNumber-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "RandomNumber/RandomGUI-Prefix.pch";
+				INFOPLIST_FILE = "RandomNumber/RandomGUI-Info.plist";
+				PRODUCT_NAME = RandomGUI;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -273,9 +274,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RandomNumber/RandomNumber-Prefix.pch";
-				INFOPLIST_FILE = "RandomNumber/RandomNumber-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "RandomNumber/RandomGUI-Prefix.pch";
+				INFOPLIST_FILE = "RandomNumber/RandomGUI-Info.plist";
+				PRODUCT_NAME = RandomGUI;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -283,7 +284,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6F9F0776151C32AA00229DFC /* Build configuration list for PBXProject "RandomNumber" */ = {
+		6F9F0776151C32AA00229DFC /* Build configuration list for PBXProject "RandomGUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6F9F0798151C32AB00229DFC /* Debug */,
@@ -292,7 +293,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6F9F079A151C32AB00229DFC /* Build configuration list for PBXNativeTarget "RandomNumber" */ = {
+		6F9F079A151C32AB00229DFC /* Build configuration list for PBXNativeTarget "RandomGUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6F9F079B151C32AB00229DFC /* Debug */,
